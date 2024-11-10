@@ -4,19 +4,24 @@
   "description": "",
   "main": "server.js",
   "scripts": {
-    "start:dev": "",
-    "start": "",
-    "server": "",
-    "build": "",
-    "install": "",
-    "client": ""
+    "start:dev": "concurrently \"npm run server\" \"npm run client\"",
+    "start": "npm run build && cd server && node server.js",
+    "server": "cd server && nodemon server.js",
+    "build": "cd client && npm run build",
+    "install": "cd server && npm install && cd ../client && npm install",
+    "client": "cd client && npm start"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "dependencies": {
     "express": "^4.17.1",
-    "if-env": "^1.0.4"
+    "idb": "^8.0.0",
+    "if-env": "^1.0.4",
+    "webpack": "^5.96.1",
+    "webpack-cli": "^5.1.4",
+    "webpack-dev-server": "^5.1.0",
+    "workbox-webpack-plugin": "^7.3.0"
   },
   "devDependencies": {
     "concurrently": "^5.2.0",
