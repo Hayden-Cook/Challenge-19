@@ -11,6 +11,9 @@ This week, I built a text editor that operates in the browser. It is a single-pa
 - [Questions](#questions)
 
 ## Screenshot
+- ![Screenshot](https://github.com/Hayden-Cook/Challenge-19-PWA-Text-Editor/blob/main/images/Jate1.png)
+- ![Screenshot](https://github.com/Hayden-Cook/Challenge-19-PWA-Text-Editor/blob/main/images/Jate2.png)
+- ![Screenshot](https://github.com/Hayden-Cook/Challenge-19-PWA-Text-Editor/blob/main/images/Jate3.png)
 
 ## Installation
 To install the necessary packages for this application, clone the repo to your local terminal and run "npm install".
