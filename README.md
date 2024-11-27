@@ -19,7 +19,7 @@ To install the necessary packages for this application, clone the repo to your l
 Once the packages have been installed, you can run the application by entering "npm start".
 
 ## Deployment-URL
-You can view the deployed text editor at the following link: [Text-Editor]
+You can view the deployed text editor at the following link: https://challenge-19-text-editor-xkxl.onrender.com/
 
 ## Questions
 If you have any questions, please feel free to contact me:
